@@ -22,6 +22,7 @@ This is a very basic repository that sets up a webpack + typescript + express se
 - `webpack.config.js`: Configuration for webpack
 - `src`: all source code lives here
   - `app`: app/client code
+    - `static`: static (non-compiled) files live here, they are directly copied to the `dist` folder
   - `server`: server code
   - `shared`: shared code between the client/server
 - `dist`: compiled code goes here
