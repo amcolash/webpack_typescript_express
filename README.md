@@ -16,6 +16,21 @@ This is a very basic repository that sets up a webpack + typescript + express se
 
 ## Notes
 
+### Project Structure
+
+- `tsconfig.json`: Configuration for typescript compilation
+- `webpack.config.js`: Configuration for webpack
+- `src`: all source code lives here
+  - `app`: app/client code
+  - `server`: server code
+  - `shared`: shared code between the client/server
+- `dist`: compiled code goes here
+
+### Scripts
+
+Take a look inside `package.json` in the `scripts` section to see what is set up already. You can run any of them via `npm run [scriptname]`.
+Additionally, you can add more scripts if you need.
+
 ### Dependencies
 
 There are a lot of dependencies that are used here (ugh, tried to keep it light), here is a little on each:
