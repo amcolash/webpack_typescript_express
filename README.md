@@ -6,13 +6,13 @@ This is a very basic repository that sets up a webpack + typescript + express se
 
 ### Simple Watch + Recompile
 
-`npm install`
-`npm run dev`
+- `npm install`
+- `npm run dev`
 
 ### Production
 
-`npm build` (output will be put into `/dist`)
-`npm run start` (will start the server w/o live reload)
+- `npm build` (output will be put into `/dist`)
+- `npm run start` (will start the server w/o live reload)
 
 ## Notes
 
