@@ -14,6 +14,9 @@ This is a very basic repository that sets up a webpack + typescript + express se
 - `npm build` (output will be put into `/dist`)
 - `npm run start` (will start the server w/o live reload)
 
+Note: since this is a node-based server, you need to have node installed on the target server. The compiled js for the client is however
+able to be statically hosted
+
 ## Notes
 
 ### Project Structure
