@@ -42,7 +42,7 @@ There are a lot of dependencies that are used here (ugh, tried to keep it light)
 Runtime:
 
 - axios: wrapper for simple XHR requests [Optional]
-- body-parser: parse json from body requests in express [Optional? Probably best to keep]
+- body-parser: parse json from body requests in express
 - cors: handle cors for us on the server
 - express: the actual node server
 - typestyle: allow for type-safe css styling (injected w/ js) [Optional]
